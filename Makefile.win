@@ -1,0 +1,47 @@
+# Project: Project1
+# Makefile created by Dev-C++ 5.4.0
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = main.o Proffessor.o S_class.o Subject.o Semister.o Assign.o Program.o $(RES)
+LINKOBJ  = main.o Proffessor.o S_class.o Subject.o Semister.o Assign.o Program.o $(RES)
+LIBS     = -L"E:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"E:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include"
+CXXINCS  = -I"E:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include"
+BIN      = Project1.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+Proffessor.o: Proffessor.cpp
+	$(CPP) -c Proffessor.cpp -o Proffessor.o $(CXXFLAGS)
+
+S_class.o: S_class.cpp
+	$(CPP) -c S_class.cpp -o S_class.o $(CXXFLAGS)
+
+Subject.o: Subject.cpp
+	$(CPP) -c Subject.cpp -o Subject.o $(CXXFLAGS)
+
+Semister.o: Semister.cpp
+	$(CPP) -c Semister.cpp -o Semister.o $(CXXFLAGS)
+
+Assign.o: Assign.cpp
+	$(CPP) -c Assign.cpp -o Assign.o $(CXXFLAGS)
+
+Program.o: Program.cpp
+	$(CPP) -c Program.cpp -o Program.o $(CXXFLAGS)

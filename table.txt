@@ -1,0 +1,30 @@
+
+-----------------2015-2016----------------
+-----------------For semester 2------------------
+             |MONDAY    TUESDAY    WE/SDAY   TH/SDAY   FRIDAY
+09:00-10:00  |          AdikimC++  DiktiaTil  AdikC++(L)  Analisi2  
+10:00-11:00  |          AdikimC++  DiktiaTil  AdikC++(L)  Analisi2  
+11:00-12:00  |Diakrita            Analisi2  Diakrita            
+12:00-13:00  |Diakrita            Analisi2  Diakrita            
+13:00-14:00  |                                                  
+14:00-15:00  |Psifiaki                                          
+15:00-16:00  |Psifiaki                                Agglika  
+16:00-17:00  |Psifiaki                                Agglika  
+17:00-18:00  |Psifia(L)                                Agglika  
+18:00-19:00  |Psifia(L)                                          
+19:00-20:00  |                                                  
+
+-----------------2015-2016----------------
+-----------------For semester 3------------------
+             |MONDAY    TUESDAY    WE/SDAY   TH/SDAY   FRIDAY
+09:00-10:00  |Ilektr(L)                                Efarmosm2  
+10:00-11:00  |Ilektr(L)            Ilektron            Efarmosm2  
+11:00-12:00  |Ilektr(L)            Ilektron                      
+12:00-13:00  |Ilektr(L)  ThSimaton  DiktiaYpo  Sistimata            
+13:00-14:00  |          ThSimaton  DiktiaYpo  Sistimata            
+14:00-15:00  |                                                  
+15:00-16:00  |          Sistimata  Diktia(L)                      
+16:00-17:00  |          Sistimata  Diktia(L)  ThSimaton            
+17:00-18:00  |                    Diktia(L)  ThSimaton  MathModel  
+18:00-19:00  |                                        MathModel  
+19:00-20:00  |                                                  
